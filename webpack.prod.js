@@ -4,10 +4,7 @@ const { dependencies } = require("./package.json");
 
 module.exports = {
     entry: "./src/entry.js",
-    mode: "development",
-    devServer: {
-        port: 3002,
-    },
+    mode: "production",
     module: {
         rules: [
             {
